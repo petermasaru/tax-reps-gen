@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  text-align: left;
+  margin-left: 3rem;
+  margin-top: 3rem;
 }
 
 .App-logo {
@@ -35,4 +37,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.printMe {
+  display: none
+}
+
+.PreviewPDF {
+  visibility: hidden;
+  justify-content: left;
+  text-align: left;
+  background-color: #61dafb;
+}
+
+li:not(:last-child) {
+  margin-bottom: 10px;
 }
