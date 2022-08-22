@@ -1,7 +1,6 @@
 .App {
+  font-family: 'HelveticaNeue-bold';
   text-align: left;
-  margin-left: 3rem;
-  margin-top: 3rem;
 }
 
 .App-logo {
@@ -52,4 +51,28 @@
 
 li:not(:last-child) {
   margin-bottom: 10px;
+}
+
+label {
+  margin-right: 15px;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+.inputBox {
+  margin-top: 5px;
+  width: 15rem;
+}
+
+select {
+  margin-top: 5px;
+  width: 15rem;
+}
+
+.generator {
+  padding: 1.5%;
+  background-color: #f2f4f7;
+  width:30rem;
+  border-radius: 2%;
+  margin-left: 3rem;
 }
